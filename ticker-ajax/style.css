@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.link {
+    color: orange;
+    font-family: "Courier New", Courier, monospace;
+    text-decoration: none;
+}
+
+a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+#ticker {
+    overflow: hidden;
+    height: 1.5em;
+    position: relative;
+    background-color: lightcyan;
+    border-bottom: 3px springgreen solid;
+}
+
+#container {
+    white-space: nowrap;
+    position: absolute;
+    left: 100%;
+    top: 0;
+    font-size: 20px;
+}
+
+
+#container a {
+    padding: 0 40px 0 0;
+    margin: 0;
+    font-size: 20px;
+}
